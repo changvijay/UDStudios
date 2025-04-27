@@ -208,7 +208,7 @@ function App() {
       <ScrollableCards cards={cards} />  
       <section>
       
-        <div className="container mx-auto bg-darkgray p-4">
+        <div id="Creations" className="container mx-auto bg-darkgray p-4">
           <div className="flex flex-wrap items-center mb-12">
             <div className="w-full md:w-1/2 p-4">
               <img src={game} alt="Scenic view of the mountains" className="w-full rounded-lg shadow-lg" />
@@ -249,7 +249,7 @@ function App() {
       </section>
     
       {/* Creations */}
-      <section id="Creations">
+      <section >
         <div className="bg-darkgray py-16">
           <TeamSection></TeamSection>
           <div className="container mx-auto flex flex-col md:flex-row items-center">
